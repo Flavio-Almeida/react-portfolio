@@ -1,0 +1,31 @@
+@use '../../styles/abstracts/theme-color-list' as *;
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        font-weight: bold;
+
+        .li{
+            margin: 1em;
+            text-decoration: none;
+        }
+    }
+}
+
+.dark{
+    //.background{
+        background-color: $black; 
+    //}
+
+    .text{
+        color: $light-gray;
+    }
+}
